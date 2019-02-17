@@ -8,10 +8,10 @@
 
 ## Installation
 
-`appstoreconnect` has been tested to work on Node.js 8.0+. Use with any prior version is unsupported.
+`@betatrain/appstoreconnect` has been tested to work on Node.js 8.0+. Use with any prior version is unsupported.
 
 ```
-npm install appstoreconnect
+npm install @betatrain/appstoreconnect
 ```
 
 ## Usage
