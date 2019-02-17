@@ -96,7 +96,7 @@ export interface PrereleaseVersionResponse {
     /**
      * The requested relationship data.
      */
-    include?: (Build | App)[]
+    included?: (Build | App)[]
     /**
      * Navigational links that include the self-link.
      */
@@ -114,7 +114,7 @@ export interface PreReleaseVersionsResponse {
     /**
      * The requested relationship data.
      */
-    include?: (Build | App)[]
+    included?: (Build | App)[]
     /**
      * Navigational links that include the self-link.
      */

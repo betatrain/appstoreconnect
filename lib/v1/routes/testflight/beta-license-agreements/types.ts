@@ -76,7 +76,7 @@ export interface BetaLicenseAgreementsResponse {
     /**
      * The requested relationship data.
      */
-    include?: App[]
+    included?: App[]
     /**
      * Navigational links that include the self-link.
      */
@@ -98,7 +98,7 @@ export interface BetaLicenseAgreementResponse {
     /**
      * The requested relationship data.
      */
-    include?: App[]
+    included?: App[]
     /**
      * Navigational links that include the self-link.
      */

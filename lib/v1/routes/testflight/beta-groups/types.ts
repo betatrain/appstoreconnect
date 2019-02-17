@@ -95,7 +95,7 @@ export interface BetaGroupResponse {
     /**
      * Relationship data to include in the response.
      */
-    include?: (App | Build | BetaTester)[]
+    included?: (App | Build | BetaTester)[]
     /**
      * Navigational links that include the self-link.
      */
@@ -273,7 +273,7 @@ export interface BetaGroupsResponse {
     /**
      * Relationship data to include in the response.
      */
-    include?: (App | Build | BetaTester)[]
+    included?: (App | Build | BetaTester)[]
     /**
      * Navigational links that include the self-link.
      */

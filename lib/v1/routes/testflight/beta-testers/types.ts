@@ -206,7 +206,7 @@ export interface BetaTesterResponse {
     /**
      * The requested relationship data.
      */
-    include?: (App | BetaGroup | Build)[]
+    included?: (App | BetaGroup | Build)[]
     /**
      * Navigational links that include the self-link.
      */
@@ -224,7 +224,7 @@ export interface BetaTestersResponse {
     /**
      * The requested relationship data.
      */
-    include?: (App | BetaGroup | Build)[]
+    included?: (App | BetaGroup | Build)[]
     /**
      * Navigational links that include the self-link.
      */

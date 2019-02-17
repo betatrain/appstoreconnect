@@ -159,7 +159,7 @@ export interface BetaAppLocalizationResponse {
     /**
      * The requested relationship data.
      */
-    include?: App[]
+    included?: App[]
     /**
      * Navigational links that include the self-link.
      */
@@ -212,7 +212,7 @@ export interface BetaAppLocalizationsResponse {
     /**
      * The requested relationship data.
      */
-    include?: App[]
+    included?: App[]
     /**
      * Navigational links that include the self-link.
      */

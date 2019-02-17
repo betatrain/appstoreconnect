@@ -64,7 +64,7 @@ export interface BetaBuildLocalizationResponse {
     /**
      * The requested relationship data.
      */
-    include?: Build[]
+    included?: Build[]
     /**
      * Navigational links that include the self-link.
      */
@@ -137,7 +137,7 @@ export interface BetaBuildLocalizationsResponse {
     /**
      * The requested relationship data.
      */
-    include?: Build[]
+    included?: Build[]
     /**
      * Navigational links that include the self-link.
      */

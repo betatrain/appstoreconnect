@@ -109,7 +109,7 @@ export interface BuildBetaDetailResponse {
     /**
      * The requested relationship data.
      */
-    include?: Build[]
+    included?: Build[]
     /**
      * Navigational links that include the self-link.
      */
@@ -127,7 +127,7 @@ export interface BuildBetaDetailsResponse {
     /**
      * The requested relationship data.
      */
-    include?: Build[]
+    included?: Build[]
     /**
      * Navigational links that include the self-link.
      */

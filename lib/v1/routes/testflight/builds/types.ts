@@ -122,7 +122,7 @@ export interface BuildResponse {
     /**
      * The requested relationship data.
      */
-    include?: (
+    included?: (
         | PrereleaseVersion
         | BetaTester
         | BetaBuildLocalization
@@ -147,7 +147,7 @@ export interface BuildsResponse {
     /**
      * The requested relationship data.
      */
-    include?: (
+    included?: (
         | PrereleaseVersion
         | BetaTester
         | BetaBuildLocalization

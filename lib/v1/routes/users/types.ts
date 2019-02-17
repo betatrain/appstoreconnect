@@ -83,7 +83,7 @@ export interface UserResponse {
     /**
      * The requested relationship data.
      */
-    include?: App[]
+    included?: App[]
     /**
      * Navigational links that include the self-link.
      */
@@ -101,7 +101,7 @@ export interface UsersResponse {
     /**
      * The requested relationship data.
      */
-    include?: App[]
+    included?: App[]
     /**
      * Navigational links that include the self-link.
      */

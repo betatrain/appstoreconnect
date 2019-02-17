@@ -105,7 +105,7 @@ export interface AppResponse {
     /**
      * The requested relationship data.
      */
-    include?: AppIncludeType[]
+    included?: AppIncludeType[]
     /**
      * Navigational links that include the self-link.
      */
@@ -123,7 +123,7 @@ export interface AppsResponse {
     /**
      * The requested relationship data.
      */
-    include?: AppIncludeType[]
+    included?: AppIncludeType[]
     /**
      * Navigational links that include the self-link.
      */

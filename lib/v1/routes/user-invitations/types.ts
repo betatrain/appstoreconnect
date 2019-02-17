@@ -153,7 +153,7 @@ export interface UserInvitationResponse {
     /**
      * The requested relationship data.
      */
-    include?: App[]
+    included?: App[]
     /**
      * Navigational links that include the self-link.
      */
@@ -171,7 +171,7 @@ export interface UserInvitationsResponse {
     /**
      * The requested relationship data.
      */
-    include?: App[]
+    included?: App[]
     /**
      * Navigational links that include the self-link.
      */

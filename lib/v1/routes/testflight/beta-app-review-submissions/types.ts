@@ -96,7 +96,7 @@ export interface BetaAppReviewSubmissionResponse {
     /**
      * The requested relationship data.
      */
-    include?: Build[]
+    included?: Build[]
     /**
      * Navigational links that include the self-link.
      */
@@ -114,7 +114,7 @@ export interface BetaAppReviewSubmissionsResponse {
     /**
      * The requested relationship data.
      */
-    include?: Build[]
+    included?: Build[]
     /**
      * Navigational links that include the self-link.
      */
