@@ -1,5 +1,5 @@
 {
-  "name": "appstoreconnect",
+  "name": "@betatrain/appstoreconnect",
   "version": "0.2.0",
   "description": "An App Store Connect API client for Node.js",
   "main": "dist/index.js",
@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aaronsky/appstoreconnect.git"
+    "url": "https://github.com/betatrain/appstoreconnect.git"
   },
   "engines": {
     "node": ">=8.0.0"
